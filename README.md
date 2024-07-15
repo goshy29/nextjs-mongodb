@@ -25,7 +25,7 @@ Backend: Contains all server-side code and database logic.
  2. db-connection: Folder dedicated to managing the MongoDB connection.
 
 ## To run this project locally, follow these steps:
-1. Clone the repository: git clone https://github.com/yourusername/react-portfolio
+1. Clone the repository: git clone https://github.com/goshy29/nextjs-mongodb.git
 2. Open the project with your code editor(VS Code) and open New Terminal
 3. To install dependencies, at the Terminal run: npm install
 4. Start the development server: npm run dev
