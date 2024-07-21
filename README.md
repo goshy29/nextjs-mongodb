@@ -36,3 +36,10 @@ Backend: Contains all server-side code and database logic.
 2. name: John Doe
 3. email: testmail@gmail.com
 4. experience: Look, I’m no professional athlete, nor will I ever be. I go to CrossFit because I love the community and I feel better when I work out. My motivation is internal. I’ve found that like running a marathon , most of the battle is competing with what’s inside your own head. You have to mentally tell yourself you can do it, trying a complicated movement, or even just finishing the workout.
+
+## MongoDB Atlas Connection:
+You will find this connection code at directory "db-connection/mongodb-connection.js".
+
+const url = "mongodb+srv://username:password@cluster0.mb9mxkm.mongodb.net/ironmuscle?retryWrites=true&w=majority&appName=Cluster0";
+
+Replace that mongodb connection string with the connection string that MongoDB Atlas generate for you when you create database or if you already have database, use that connection string. And be sure that you replace username and password from the connection string with your actual database credentials!
